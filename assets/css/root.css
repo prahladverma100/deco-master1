@@ -10,14 +10,15 @@
     --black: black;
     --white: #fff;
     --grey: #F0F0F0;
-    --pink: --linear,
-        linear-gradient(90deg, #9104E5 0%, #F93B96 100%);
+    --pink: #EB34A1;
+    linear-gradient(90deg, #9104E5 0%, #F93B96 100%);
     --bg_white: #fff;
     --bg_black: #000000;
     --blue: #010080;
     --bg_blue: #010080;
     --bg_color: #EEEEEE;
     --bg-yellow: #D2DA60;
+    --blue1: #B115CD;
     /* font-weight */
     --font_weight: 100;
     --font_weight2: 200;
@@ -129,6 +130,10 @@
 
 .bg-yellow {
     background-color: var(--bg-yellow);
+}
+
+.blue1 {
+    color: var(--blue1);
 }
 
 
